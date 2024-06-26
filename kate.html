@@ -1,0 +1,243 @@
+<html>
+    <style>
+body {
+    font-family: sans-serif;
+    font-family: Rhodium Libre;
+    font-size: 20px;
+}
+
+header, section, footer{
+    width: 100%;
+    position: relative;
+    float: left;
+    margin-top: 100px;
+}
+
+h1{
+    font-family: Roboto Condensed;
+    font-size: 64px;
+    margin-top: 200px;
+    font-weight: 400;
+}
+
+h2{
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 0px;
+    padding: 100px 0px;
+}
+
+nav{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+nav a{
+    margin: 0px 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.about img{
+    width: 30%;
+    float: right;
+    margin-right: 100px;
+}
+
+.text{
+    float: left;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 100px;
+    font-size: 26px;
+}
+
+.text h2{
+    text-align: left;
+}
+
+.div-catalog{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.product{
+    width: 330px;
+    margin: 0px 50px;
+}
+
+.product img{
+ width: 300px;
+ height: 400px;
+}
+
+.product p:last-child{
+    font-weight: 600;
+    
+}
+
+.div-rews{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.rew img{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+    border-radius: 50%;
+}
+
+.rew p{
+    float: left;
+    width: 70%;
+}
+
+.map{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+footer img{
+    float: left;
+width: 186px;
+height: 146px;
+margin-left: 60px;
+margin-top: 30px;
+}
+
+.soc{
+    float: right;
+    
+margin-right: 60px;
+}
+
+.soc img{
+margin-left: 10px;
+margin-top: 0px;
+width: 74px;
+height: 67px;
+}
+
+nav a::after{
+    content: " ";
+    display: block;
+    border-bottom: 2px solid white;
+    padding-top: 10px;
+    width: 80px;
+}
+
+nav a:hover::after{
+   
+    border-bottom: 2px solid black;
+    width: 180px;
+    transition: 1s;
+}
+
+
+        </style>
+<head>
+    <title>Sinsay</title>
+</head>
+<body>
+    <header>
+     
+        <h1>Sinsay</h1>
+       
+    </header>
+    <main>
+         <nav>
+            <a href="">Про нас </a>
+            <a href="">Каталог </a>
+            <a href="">Відгуки </a>
+            <a href="">Де нас знайти? </a>
+            <a href="">Соціальні мережі</a>
+        </nav>
+        <section class="about">
+            <div class="text">
+                <h2>Про нас</h2>
+                <p>Бренд пропонує величезний вибір одягу, взуття та аксесуарів для чоловіків, жінок і дітей. В асортименті майже все – від піжам і хатніх м’яких тапочок до зимових курток та чобіт. Більшість речей з Sinsay підходять для щоденного використання.</p>
+                </div>
+                <img src="https://cdn.kasta.ua/imgw/loc/0x0/s3/brands/26827.jpg">
+                </section>
+                <section classs="catalog">
+                    <h2>Kаталог</h2>
+                    <div class="div-catalog">
+                        <arcticle class="product">
+                            <img src="https://static.sinsay.com/media/catalog/product/cache/850/a4e40ebdc3e371adff845072e1c73f37/7/2/7222F-05J-008-1-827560.jpg">
+                            <h3>Мінісукня</h3>
+                            <p>Колір - синій</p>
+                            <br>
+                            <p>Ціна-719 грн.</p>
+                        </arcticle>
+
+                           <arcticle class="product">
+                            <img src="https://static2.issaplus.com/wa-data/public/shop/products/89/64/86489/images/203358/203358.1200x0.jpg">
+                            <h3>Штани</h3>
+                            <p>Колір - чорний</p>
+                            <br>
+                            <p>Ціна-499 грн.</p>
+                        </arcticle>
+
+                           <arcticle class="product">
+                            <img src="https://seveneleven.com.ua/image/catalog/product/Yellow%20Moon/SE20TpMshG.jpg">
+                            <h3>Топ</h3>
+                            <p>Колір - сірий</p>
+                            <br>
+                            <p>Ціна-99 грн.</p>
+                        </arcticle>
+                    </div>
+                </section>
+                <section class="rews">
+                    <h2>Відгуки</h2>
+                    <div class="div-rews">
+                        <arcticle class="rew">
+                            <img src="https://a.storyblok.com/f/191576/360x360/a59cfaaaeb/profile-pictures-a1.png">
+                            <p> перший день приходжу в цей магазин, і не розумію, чого всі так обурені. не подобається, то ідіть в "кращі" магазини, повірте, персонал не читає такі коментарі, хіба для розваги, тому just relax, і гуляйте стороною, якщо не подобається, без покупців, в яких не склалось життя, і які приходять лише задля сварки, ви цьому магазину продажі не сильно піднесете, я гадаю. а нормальні ввічливі люди, які ходять в цей магазин, виходять з нього щасливі та задоволенні, бо як ставишся до людей, так і вони до тебе, тут потрібно мати правильний підхід, тому не очікуйте, шо вам будуть цілувати сраку, коли ви заходите в магазин з гнилим лицем. сінсей люблю, і постійний клієнт, в мене все, дякую !!</p>
+                        </arcticle>
+
+                        <arcticle class="rew">
+                            <img src="https://www.meme-arsenal.com/memes/ad84d3713e74da5dc084f598f2631ad9.jpg">
+                            <p>Доброго дня, хочу написати відгук про отримання коштів за повернення товару.Читала багато негативних коментарів що кошти затримують та не повертають усю суму, довго вагалася чи варто повертати але все ж таки наважилася. Я зробила повернення на сайті і 06.03 я відправила посилку через Укрпошту експрес і 08.03 її отримали у Львові. 14.03 мені прийшло повідомлення що моє повернення отримали і зареєстрували 13.03 і на протязі 14 днів мені повернули кошти.</p>
+                        </arcticle>
+                    </div>
+                </section>
+                <section class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d187468.78418053087!2d30.35367054488788!3d50.375898246064054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfcf2ddd6e79%3A0x3812211892ae5ff!2ssinsay!5e0!3m2!1sru!2sua!4v1719254435532!5m2!1sru!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                 <h2>Де нас знайти?</h2>
+                 <h3>Адреса</h3>
+                 <p>місто Київ <br>вул. Незалежності 34</p>
+                  <p>місто Харків<br>вул. Сумська 60</p>
+                  <p>місто Львів<br>вул. Богдана Хмельницького 14</p>
+          </section>
+                </main>
+                <footer>
+                    <img src="https://cdn.kasta.ua/imgw/loc/0x0/s3/brands/26827.jpg">
+                    <div class="soc">
+                        <h4>Соц мережі</h4>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlPWw7F61PygBhxCf60_eY8BpmTNSHLKI3HA&s">
+                    </div>
+                </footer>
+</body>
+</html>
